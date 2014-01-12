@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -g    CMakeFiles/s_dynstr.dir/dyn_string/main.o  -o s_dynstr -rdynamic ../libserialize.a 

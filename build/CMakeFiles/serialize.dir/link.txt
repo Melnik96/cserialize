@@ -1,0 +1,2 @@
+/usr/bin/ar cr libserialize.a  CMakeFiles/serialize.dir/source/serialize.o
+/usr/bin/ranlib libserialize.a

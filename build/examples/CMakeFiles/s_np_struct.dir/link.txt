@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c11 -g    CMakeFiles/s_np_struct.dir/nasted_ptr_struct/main.o  -o s_np_struct -rdynamic ../libserialize.a 
