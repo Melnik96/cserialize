@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/melnik/projects/serialize
+CMAKE_SOURCE_DIR = /home/melnik/projects/cserialize
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/melnik/projects/serialize/build
+CMAKE_BINARY_DIR = /home/melnik/projects/cserialize/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/melnik/projects/serialize/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/serialize/build/CMakeFiles /home/melnik/projects/serialize/build/examples/CMakeFiles/progress.marks
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/serialize/build/CMakeFiles 0
+	cd /home/melnik/projects/cserialize/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/cserialize/build/CMakeFiles /home/melnik/projects/cserialize/build/examples/CMakeFiles/progress.marks
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/cserialize/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,36 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/melnik/projects/serialize/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/melnik/projects/cserialize/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-examples/CMakeFiles/s_ndp_struct.dir/rule:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/s_ndp_struct.dir/rule
-.PHONY : examples/CMakeFiles/s_ndp_struct.dir/rule
-
-# Convenience name for target.
-s_ndp_struct: examples/CMakeFiles/s_ndp_struct.dir/rule
-.PHONY : s_ndp_struct
-
-# fast build rule for target.
-s_ndp_struct/fast:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_ndp_struct.dir/build.make examples/CMakeFiles/s_ndp_struct.dir/build
-.PHONY : s_ndp_struct/fast
-
-# Convenience name for target.
 examples/CMakeFiles/s_np_struct.dir/rule:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/s_np_struct.dir/rule
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/s_np_struct.dir/rule
 .PHONY : examples/CMakeFiles/s_np_struct.dir/rule
 
 # Convenience name for target.
@@ -126,37 +112,22 @@ s_np_struct: examples/CMakeFiles/s_np_struct.dir/rule
 
 # fast build rule for target.
 s_np_struct/fast:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/build
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/build
 .PHONY : s_np_struct/fast
 
 # target to build an object file
-nasted_dup_ptr_struct/main.o:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_ndp_struct.dir/build.make examples/CMakeFiles/s_ndp_struct.dir/nasted_dup_ptr_struct/main.o
-.PHONY : nasted_dup_ptr_struct/main.o
-
-# target to preprocess a source file
-nasted_dup_ptr_struct/main.i:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_ndp_struct.dir/build.make examples/CMakeFiles/s_ndp_struct.dir/nasted_dup_ptr_struct/main.i
-.PHONY : nasted_dup_ptr_struct/main.i
-
-# target to generate assembly for a file
-nasted_dup_ptr_struct/main.s:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_ndp_struct.dir/build.make examples/CMakeFiles/s_ndp_struct.dir/nasted_dup_ptr_struct/main.s
-.PHONY : nasted_dup_ptr_struct/main.s
-
-# target to build an object file
 nasted_ptr_struct/main.o:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/nasted_ptr_struct/main.o
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/nasted_ptr_struct/main.o
 .PHONY : nasted_ptr_struct/main.o
 
 # target to preprocess a source file
 nasted_ptr_struct/main.i:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/nasted_ptr_struct/main.i
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/nasted_ptr_struct/main.i
 .PHONY : nasted_ptr_struct/main.i
 
 # target to generate assembly for a file
 nasted_ptr_struct/main.s:
-	cd /home/melnik/projects/serialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/nasted_ptr_struct/main.s
+	cd /home/melnik/projects/cserialize/build && $(MAKE) -f examples/CMakeFiles/s_np_struct.dir/build.make examples/CMakeFiles/s_np_struct.dir/nasted_ptr_struct/main.s
 .PHONY : nasted_ptr_struct/main.s
 
 # Help Target
@@ -167,11 +138,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... s_ndp_struct"
 	@echo "... s_np_struct"
-	@echo "... nasted_dup_ptr_struct/main.o"
-	@echo "... nasted_dup_ptr_struct/main.i"
-	@echo "... nasted_dup_ptr_struct/main.s"
 	@echo "... nasted_ptr_struct/main.o"
 	@echo "... nasted_ptr_struct/main.i"
 	@echo "... nasted_ptr_struct/main.s"
@@ -186,6 +153,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/melnik/projects/serialize/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/melnik/projects/cserialize/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/melnik/projects/serialize
+CMAKE_SOURCE_DIR = /home/melnik/projects/cserialize
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/melnik/projects/serialize/build
+CMAKE_BINARY_DIR = /home/melnik/projects/cserialize/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/serialize/build/CMakeFiles /home/melnik/projects/serialize/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/cserialize/build/CMakeFiles /home/melnik/projects/cserialize/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/serialize/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/melnik/projects/cserialize/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,19 +115,6 @@ serialize/fast:
 .PHONY : serialize/fast
 
 #=============================================================================
-# Target rules for targets named s_ndp_struct
-
-# Build rule for target.
-s_ndp_struct: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 s_ndp_struct
-.PHONY : s_ndp_struct
-
-# fast build rule for target.
-s_ndp_struct/fast:
-	$(MAKE) -f examples/CMakeFiles/s_ndp_struct.dir/build.make examples/CMakeFiles/s_ndp_struct.dir/build
-.PHONY : s_ndp_struct/fast
-
-#=============================================================================
 # Target rules for targets named s_np_struct
 
 # Build rule for target.
@@ -164,7 +151,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... serialize"
-	@echo "... s_ndp_struct"
 	@echo "... s_np_struct"
 	@echo "... source/serialize.o"
 	@echo "... source/serialize.i"

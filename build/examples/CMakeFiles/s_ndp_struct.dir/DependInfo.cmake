@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/main.c" "/home/melnik/projects/serialize/build/examples/CMakeFiles/s_ndp_struct.dir/nasted_dup_ptr_struct/main.o"
+  "/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/main.c" "/home/melnik/projects/cserialize/build/examples/CMakeFiles/s_ndp_struct.dir/nasted_dup_ptr_struct/main.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/melnik/projects/serialize/build/CMakeFiles/serialize.dir/DependInfo.cmake"
+  "/home/melnik/projects/cserialize/build/CMakeFiles/serialize.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

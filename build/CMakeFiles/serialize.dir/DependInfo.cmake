@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/melnik/projects/serialize/source/serialize.c" "/home/melnik/projects/serialize/build/CMakeFiles/serialize.dir/source/serialize.o"
+  "/home/melnik/projects/cserialize/source/serialize.c" "/home/melnik/projects/cserialize/build/CMakeFiles/serialize.dir/source/serialize.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/melnik/projects/serialize/source/serialize.c
+/home/melnik/projects/cserialize/source/serialize.c
 serialize.h
-/home/melnik/projects/serialize/source/serialize.h
+/home/melnik/projects/cserialize/source/serialize.h
 
-/home/melnik/projects/serialize/source/serialize.h
+/home/melnik/projects/cserialize/source/serialize.h
 stdint.h
 -
 string.h

@@ -3,6 +3,6 @@
 
 examples/CMakeFiles/s_ndp_struct.dir/nasted_dup_ptr_struct/main.o
  ../examples/../source/serialize.h
- /home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/main.c
- /home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/sfuncs.h
- /home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/structs.h
+ /home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/main.c
+ /home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/sfuncs.h
+ /home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/structs.h

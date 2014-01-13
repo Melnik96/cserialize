@@ -11,5 +11,5 @@ include_directories(../source)
 add_executable(s_np_struct nasted_ptr_struct/main.c)
 target_link_libraries(s_np_struct serialize)
 
-add_executable(s_ndp_struct nasted_dup_ptr_struct/main.c)
-target_link_libraries(s_ndp_struct serialize)
+#add_executable(s_ndp_struct nasted_dup_ptr_struct/main.c)
+#target_link_libraries(s_ndp_struct serialize)

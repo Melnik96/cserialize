@@ -42,6 +42,5 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/serialize.dir/DependInfo.cmake"
-  "examples/CMakeFiles/s_ndp_struct.dir/DependInfo.cmake"
   "examples/CMakeFiles/s_np_struct.dir/DependInfo.cmake"
   )

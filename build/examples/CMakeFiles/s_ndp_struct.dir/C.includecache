@@ -14,23 +14,23 @@ string.h
 malloc.h
 -
 
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/main.c
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/main.c
 string.h
 -
 serialize.h
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/serialize.h
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/serialize.h
 sfuncs.h
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/sfuncs.h
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/sfuncs.h
 structs.h
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/structs.h
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/structs.h
 
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/sfuncs.h
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/sfuncs.h
 serialize.h
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/serialize.h
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/serialize.h
 structs.h
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/structs.h
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/structs.h
 
-/home/melnik/projects/serialize/examples/nasted_dup_ptr_struct/structs.h
+/home/melnik/projects/cserialize/examples/nasted_dup_ptr_struct/structs.h
 stdint.h
 -
 

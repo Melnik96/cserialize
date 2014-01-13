@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/melnik/projects/serialize
+CMAKE_SOURCE_DIR = /home/melnik/projects/cserialize
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/melnik/projects/serialize/build
+CMAKE_BINARY_DIR = /home/melnik/projects/cserialize/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/serialize.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/serialize.dir/flags.make
 
 CMakeFiles/serialize.dir/source/serialize.o: CMakeFiles/serialize.dir/flags.make
 CMakeFiles/serialize.dir/source/serialize.o: ../source/serialize.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/melnik/projects/serialize/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/melnik/projects/cserialize/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/serialize.dir/source/serialize.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/serialize.dir/source/serialize.o   -c /home/melnik/projects/serialize/source/serialize.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/serialize.dir/source/serialize.o   -c /home/melnik/projects/cserialize/source/serialize.c
 
 CMakeFiles/serialize.dir/source/serialize.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/serialize.dir/source/serialize.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/melnik/projects/serialize/source/serialize.c > CMakeFiles/serialize.dir/source/serialize.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/melnik/projects/cserialize/source/serialize.c > CMakeFiles/serialize.dir/source/serialize.i
 
 CMakeFiles/serialize.dir/source/serialize.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/serialize.dir/source/serialize.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/melnik/projects/serialize/source/serialize.c -o CMakeFiles/serialize.dir/source/serialize.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/melnik/projects/cserialize/source/serialize.c -o CMakeFiles/serialize.dir/source/serialize.s
 
 CMakeFiles/serialize.dir/source/serialize.o.requires:
 .PHONY : CMakeFiles/serialize.dir/source/serialize.o.requires
@@ -101,6 +101,6 @@ CMakeFiles/serialize.dir/clean:
 .PHONY : CMakeFiles/serialize.dir/clean
 
 CMakeFiles/serialize.dir/depend:
-	cd /home/melnik/projects/serialize/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melnik/projects/serialize /home/melnik/projects/serialize /home/melnik/projects/serialize/build /home/melnik/projects/serialize/build /home/melnik/projects/serialize/build/CMakeFiles/serialize.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/melnik/projects/cserialize/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/melnik/projects/cserialize /home/melnik/projects/cserialize /home/melnik/projects/cserialize/build /home/melnik/projects/cserialize/build /home/melnik/projects/cserialize/build/CMakeFiles/serialize.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serialize.dir/depend
 

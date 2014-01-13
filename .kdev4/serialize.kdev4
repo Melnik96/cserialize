@@ -1,0 +1,39 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x12\x00s\x00e\x00r\x00i\x00a\x00l\x00i\x00z\x00e)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/melnik/projects/cserialize/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=s_np_struct
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x03\x00\x00\x00\x12\x00s\x00e\x00r\x00i\x00a\x00l\x00i\x00z\x00e\x00\x00\x00\x10\x00e\x00x\x00a\x00m\x00p\x00l\x00e\x00s\x00\x00\x00\x16\x00s\x00_\x00n\x00p\x00_\x00s\x00t\x00r\x00u\x00c\x00t)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///home/melnik/projects/cserialize/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=serialize,examples,s_np_struct
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit

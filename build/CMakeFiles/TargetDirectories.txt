@@ -1,3 +1,2 @@
-/home/melnik/projects/serialize/build/examples/CMakeFiles/s_ndp_struct.dir
-/home/melnik/projects/serialize/build/examples/CMakeFiles/s_np_struct.dir
-/home/melnik/projects/serialize/build/CMakeFiles/serialize.dir
+/home/melnik/projects/cserialize/build/examples/CMakeFiles/s_np_struct.dir
+/home/melnik/projects/cserialize/build/CMakeFiles/serialize.dir
